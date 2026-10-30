@@ -9,7 +9,7 @@ window.addEventListener("DOMContentLoaded",function() {
     let z = rnd(-50,50);
     let a = rnd(0,360)
     let cloud = new Cloud(x, 0 , z);
-    // cloud.obj.setAttribute("rotation",x, y, z);
+    // cloud.obj.setAttribute("rotation",{x:x, y:y, z:z});
   }
 
 })
